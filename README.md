@@ -124,18 +124,6 @@ Sample request body for POST / PUT:
 
 ---
 
-## 📸 Screenshots
-
-_Add your own screenshots here after running the project, for example:_
-
-```
-screenshots/
-├── employee-list.png
-└── add-employee-form.png
-```
-
----
-
 ## 📚 What I Learned
 
 - Building a REST API with Spring Boot (Controller → Service → Repository layers)
