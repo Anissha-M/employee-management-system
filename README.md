@@ -136,11 +136,8 @@ Sample request body for POST / PUT:
 
 ## 🙋‍♂️ Author
 
-Built by [Your Name] as a personal/learning project.
+Built by Anissha as a personal/learning project.
 Feel free to fork this repo and improve it!
 
 ---
 
-## 📄 License
-
-This project is open source and free to use for learning purposes.
