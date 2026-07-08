@@ -1,6 +1,3 @@
--- Run this only if you want to create the database/table manually.
--- Otherwise, Spring Boot (spring.jpa.hibernate.ddl-auto=update) will create it for you automatically.
-
 CREATE DATABASE IF NOT EXISTS employee_management_db;
 
 USE employee_management_db;
@@ -15,7 +12,7 @@ CREATE TABLE IF NOT EXISTS employees (
     salary DOUBLE NOT NULL
 );
 
--- Sample data
+
 INSERT INTO employees (first_name, last_name, email, department, designation, salary)
 VALUES
 ('Rahul', 'Sharma', 'rahul.sharma@example.com', 'Engineering', 'Software Engineer', 55000),
