@@ -14,7 +14,7 @@ function EmployeeForm({ selectedEmployee, onSaved, onCancel }) {
   const [employee, setEmployee] = useState(initialState);
   const [errors, setErrors] = useState({});
 
-  // When a row is selected for editing, fill the form with its data
+
   useEffect(() => {
     if (selectedEmployee) {
       setEmployee(selectedEmployee);
@@ -48,10 +48,10 @@ function EmployeeForm({ selectedEmployee, onSaved, onCancel }) {
 
     try {
       if (employee.id) {
-        // Update existing employee
+  
         await employeeService.updateEmployee(employee.id, payload);
       } else {
-        // Create new employee
+
         await employeeService.createEmployee(payload);
       }
       setEmployee(initialState);
