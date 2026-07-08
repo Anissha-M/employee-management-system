@@ -9,7 +9,6 @@ function App() {
   const [selectedEmployee, setSelectedEmployee] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Fetch all employees when the app loads
   useEffect(() => {
     fetchEmployees();
   }, []);
