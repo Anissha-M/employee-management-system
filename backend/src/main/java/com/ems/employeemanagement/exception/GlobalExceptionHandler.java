@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Catches exceptions thrown anywhere in the app and turns them
- * into clean JSON error responses instead of ugly stack traces.
- */
+
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
