@@ -7,9 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Employee entity - maps to the "employees" table in MySQL.
- */
+
 @Entity
 @Table(name = "employees")
 @Data
